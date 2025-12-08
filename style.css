@@ -969,7 +969,7 @@ html, body {
     padding: 20px 30px;
   }
 
-  .navigation .nav_list {
+  .navigation .nav_list a {
     display: none;
   }
 
@@ -1017,5 +1017,6 @@ html, body {
       ;
   }
 }
+
 
 
