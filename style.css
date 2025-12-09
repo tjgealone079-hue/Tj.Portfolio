@@ -873,6 +873,7 @@ html, body {
 
   background-color: var(--light-hover);
   font-family: Poppins;
+  color: var(--text-color);
 }
 
 .conIn:focus{
@@ -1017,6 +1018,7 @@ html, body {
       ;
   }
 }
+
 
 
 
