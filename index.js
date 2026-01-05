@@ -68,26 +68,3 @@ function darkmode_toggle() {
 }
 
 
-
-
-
-
-// MOUSE WHEEL SMOOTH SCROLL
-let currentScroll = 0;
-let targetScroll = 0;
-const ease = 0.05;
-
-window.addEventListener("wheel", e => {
-  e.preventDefault();
-  targetScroll += e.deltaY * 1;
-  targetScroll = Math.max(0, Math.min(targetScroll, document.body.scrollHeight - window.innerHeight));
-}, { passive: false });
-
-function smoothScroll() {
-  currentScroll += (targetScroll - currentScroll) * ease;
-  window.scrollTo(0, currentScroll);
-  requestAnimationFrame(smoothScroll);
-}
-smoothScroll();
-
-
