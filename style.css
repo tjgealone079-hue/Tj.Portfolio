@@ -173,6 +173,11 @@ html, body {
   z-index: 9999;
 }
 
+.navigation.scrolled {
+  background-color: var(--back-color);
+  border-bottom: solid 1px var(--border-color);
+}
+
 .nav-item:hover {
  border-bottom: solid 3px var(--border-color);
 }
@@ -1014,6 +1019,7 @@ html, body {
       ;
   }
 }
+
 
 
 
